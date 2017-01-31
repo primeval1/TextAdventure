@@ -1,4 +1,4 @@
-# TextAdventure:
+# Code of Life: A text adventure
 A text adventure mini game created in swi-prolog. Just for clarification this is just a small program made for an assignement and mainly for fun, so it is not something big right now, but it may be expanded in the near future.
 
 # Basic story:
