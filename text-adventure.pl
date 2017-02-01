@@ -8,21 +8,21 @@
 % actions at car
 state(car,[action('open_car_door', gas_station, 
                   'you opened the door of your car door, and walked out. "GOD! this thirst! 
-                   i need a drink something.",you grumple.',null),
+                   I need to drink something", you grumple.',null),
           action('leave_gas_station', road ,
-                 'You sit on the driver`s chair,
-                  and open the radio, listening to a random music program, nothing seems to be wrong. 
-                  Suddenly the music stops. You hear a lot of noise coming through the speaker. and a mysterious voice says:
+                 'You sit on the driver`s chair
+                  and open the radio, listening to a random music radio station, nothing seems to be wrong. 
+                  Suddenly the music stops. You hear a lot of noise coming through the speaker; and a mysterious voice says:
                   "C-C-CODE IS MALFUNCTIONING, THE BUG BUG B-B-B-BUG IS C-C-COMING". You are terrified, 
-                  and you immediately turn the car`s engine on, leaving this place once and for all. ...To be continue...',null)
+                  and you immediately turn the car`s engine on, leaving this place once and for all. ...To be continued...',null)
           ]).
 
 % actions at gas station.
 state(gas_station,[
                action('open_gas_station_door',gas_station_store,
                       'You opened the door and you enter the gas station, in front of you there is the gas station store.
-                       Sprakling cool soda is sold, and there is a newspaper stand. There is one problem though, nobody is there,
-                       "What happened" you wonder, there were also no traffic on the road, as you drived there. strange',null),
+                       Sprakling cool soda is sold, and there is a newspaper stand. There is one problem though, nobody is there.
+                       "What happened" you wonder, there was also no traffic on the road, as you drove there. Strange',null),
                action('open_car_door',car,'You have returned to your car.',null)]).
 
 %actions at gas station store.
@@ -31,14 +31,14 @@ state(gas_station_store, [
                              'You feel something is not right there, so you immediately 
                               storm out of the gas_station_store.',null),
                       action('take_soda',gas_station_store,
-                             '"THAT THIRST! OH MY GOD SODA!", you shout, you immediately take a soda and drink it,
-                              glu,glu,glu. "This is how a man should live" ',soda),
+                             '"THAT THIRST! OH MY GOD, SODA!", you shout, you immediately take a soda and drink it,
+                              glup, glup, glup. "This is how a man should live!" ',soda),
                       action('take_newspaper',gas_station_store,
-                           'You take and check the newspaper.there is some text in it ,but something is completely off, 
-                            You notice there are gaps in the flow of text in the articles. Some people names are missing,
-                            its like someone wrote an article about someone else and forgot his name. There were also blank
+                           'You take and check the newspaper. There is some text in it, but something is completely off. 
+                            You notice there are gaps in the flow of text in the articles. Some people's names are missing,
+                            it`s like someone wrote an article about someone else and forgot his name. There were also blank
                             pages like there was something supposed to be written on but never published.
-                            "what the hell is going on" you wonder, its like i woke up in a computer program, and there is a huge
+                            "What the hell is going on" you wonder, it`s like I woke up in a computer program, and there is a huge
                             bug, causing everything to glitch',newspaper)
                          ]).
 
